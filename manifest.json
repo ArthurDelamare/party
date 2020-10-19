@@ -2,7 +2,7 @@
   "name": "Party",
   "version": "1.0",
   "description": "Extension to watch videos together!",
-  "permissions": ["storage"],
+  "permissions": ["declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
