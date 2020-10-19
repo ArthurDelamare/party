@@ -2,5 +2,9 @@
   "name": "Party",
   "version": "1.0",
   "description": "Extension to watch videos together!",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "manifest_version": 2
 }
