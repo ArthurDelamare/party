@@ -18,6 +18,7 @@ changeColor.addEventListener("click", async () => {
 // The body of this function will be execuetd as a content script inside the
 // current page
 function setPageBackgroundColor() {
+  sayHello('Arthur');
   chrome.storage.sync.get("color", ({ color }) => {
     document.body.style.backgroundColor = color;
   });

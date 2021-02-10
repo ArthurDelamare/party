@@ -7,6 +7,12 @@
     "service_worker": "background.js"
   },
   "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["one.js", "two.js"]
+    }
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
