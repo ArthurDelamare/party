@@ -1,0 +1,36 @@
+body {
+  background-color: #16191d;
+}
+
+button {
+  font-weight: 600;
+  border-radius: 0.2rem;
+  border-color: transparent;
+  width: 16rem;
+  padding: 0.5rem 1rem 0.7rem;
+  font-size: 1rem;
+  font-family: Hind,San Francisco,Roboto,Arial,sans-serif;
+  margin: 0.5rem 0;
+}
+
+.button-primary {
+  background-color: #ec3655;
+  color: #fff;
+  transition: border .2s ease-out, background .2s ease-out;
+}
+
+.button-primary:hover {
+  background-color: #c82d47;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: .1rem solid rgba(255,255,254,.3);
+  color: white;
+  transition: border .2s ease-out, background .2s ease-out;
+}
+
+.button-secondary:hover {
+  background: rgba(255,255,254,.3);
+  border: .1rem solid transparent;
+}
